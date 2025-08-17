@@ -1,0 +1,10 @@
+@startuml
+title Exemple de diagramme
+
+actor Utilisateur
+rectangle "Système" {
+  component "Composant A"
+  component "Composant B"
+}
+Utilisateur --> "Composant A"
+@enduml

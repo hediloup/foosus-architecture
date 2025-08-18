@@ -32,15 +32,15 @@ Ce projet s’inscrit dans le cadre du Projet 5 et repose sur le cadre méthodol
 Les diagrammes sont disponibles dans le dossier `/doc/diagrams`.
 ```mermaid
 flowchart TD
-  Vision("Vision d'Architecture")
-  EtatCible("État Cible de l'Architecture")
-  Exigences("Conditions Requises")
-  Business("Contrat Business")
-  Technique("Contrat Design & Développement")
+  Vision["Vision d'Architecture"]
+  EtatCible["État Cible de l'Architecture"]
+  Exigences["Conditions Requises"]
+  Business["Contrat Business"]
+  Technique["Contrat Design & Développement"]
 
   Vision --> EtatCible --> Exigences --> Business
   Exigences --> Technique
-
+```
 
 ## Comment utiliser ce dépôt
 1. Parcours les livrables dans l’ordre : de la vision jusqu’aux engagements techniques.
